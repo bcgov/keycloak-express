@@ -1,0 +1,31 @@
+{
+  "name": "@bcgov/keycloak-express",
+  "version": "1.0.0-alpha.1",
+  "description": "BCGov Pathfinder SSO Keycloak integration for Express API",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "bcgov",
+    "keycloak",
+    "sso",
+    "single sign on",
+    "pathfinder",
+    "redhat",
+    "express"
+  ],
+  "author": "Brady Mitchell <braden.mitchell@gov.bc.ca>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "16.1.4",
+    "express": "4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcgov/keycloak-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcgov/keycloak-express/issues"
+  }
+}
