@@ -178,7 +178,7 @@ Import `middleware` from `@bcgov/keycloak-express` and add as middleware.
 Example (`middleware` is aliased to `protect`):
 
 ```JavaScript
-import { middleware: protect } from '@bcgov/keycloak-express';
+import { middleware as protect } from '@bcgov/keycloak-express';
 
 app.use("/users", protect, usersRouter);
 ```
