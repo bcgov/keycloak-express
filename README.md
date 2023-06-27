@@ -38,6 +38,20 @@
 ```
 
 2. Add import `const { keycloakInit } = require('@bcgov/keycloak-express');` or `import { keycloakInit } from '@bcgov/keycloak-express';` to the top of the file that defines the express app. Add `keycloakInit(app);` below the definition of the express app, where `app` is defined by `express()`.
+
+Example: 
+
+``` JavaScript
+import express from 'express';
+import { keycloakInit } from '@bcgov/keycloak-express';
+
+// Define Express App
+const app = express();
+
+// Initialize Keycloak.
+keycloakInit(app);
+```
+
 3. Add the required environment variables from the [Environment Variables](#environment-variables) section below.
 
 [Return to Top](#bcgov-sso-keycloak-integration)
